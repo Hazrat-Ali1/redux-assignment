@@ -25,22 +25,17 @@ const Navbar = () => {
           <Link to='/'>Home</Link>
         </li>
         <li>
-          <Link to='/top-rated'>Top Rated</Link>
-        </li>
-        <li>
           <Link to='/about'>About</Link>
         </li>
         <li>
           <Link to='/dashboard'>Dashboard</Link>
         </li>
         <Link to='/'>
-          <li title='Wishlist' className='bg-indigo-500 p-2 rounded-full'>
-            <IoIosListBox className='text-white' />
-          </li>
+         
         </Link>
         <Link to='/cart'>
-          <li title='cart' className='bg-indigo-500 p-2 rounded-full'>
-            <BsFillCartFill className='text-white ' />
+          <li>
+          <Link to='/dashboard'> Readed</Link>
           </li>
         </Link>
       </ul>
